@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/.bin/nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint": "eslint ."
+  },
+  "author": "Matti Luukkainen",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "@stylistic/eslint-plugin-js": "^1.8.0",
+    "eslint": "^9.1.1",
+    "nodemon": "^3.1.0"
+  }
+}
